@@ -11,7 +11,7 @@ body {
 }
 
 body {
-  background-color: #0888d3;
+  background-color: #101014;
   font-family: Roboto, Arial, sans-serif;
 }
 
@@ -59,14 +59,14 @@ form .input-block input {
   color: #1e1e1f;
   border-radius: 2px;
   border: 1px solid #ccddef;
-  outline-color: #0888d3;
+  outline-color: #c29308;
 }
 
 form .btn-login {
   display: block;
   min-width: 120px;
   border: none;
-  background-color: #0888d3;
+  background-color: #c29308;
   color: white;
   border-radius: 25px;
   margin: auto;
