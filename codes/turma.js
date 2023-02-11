@@ -1,4 +1,9 @@
-$(document).ready(function () {
+window.addEventListener("scroll", function () {
+  let header = document.querySelector(".navbar");
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
+
+/*$(document).ready(function () {
   $(window).scroll(function () {
     if (this.scrollY > 20) {
       $(".navbar").addClass("sticky");
@@ -20,37 +25,6 @@ $(document).ready(function () {
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
-  });
+  }); */
 
-  /* menu mobile*/
-
-  $(".menu-btn").click(function () {
-    $(".navbar .menu").toggleClass("active");
-    $(".menu-btn i").toggleClass("active");
-  });
-
-  $(".menu li a").on("click", function () {
-    $(".menu-btn").trigger("click");
-  });
-
-  $(".carousel").owlCarousel({
-    margin: 20,
-    loop: true,
-    autoplayTimeOut: 2000,
-    autoplayHoverPauser: true,
-    responsive: {
-      0: {
-        items: 1,
-        nav: false,
-      },
-      600: {
-        items: 2,
-        nav: false,
-      },
-      1000: {
-        items: 3,
-        nav: false,
-      },
-    },
-  });
-});
+/* menu mobile*/
