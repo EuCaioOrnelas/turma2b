@@ -146,7 +146,8 @@ section .title::after {
 .skills,
 .teams,
 .contact,
-footer {
+footer,
+.turma {
   font-family: "Roboto", sans-serif;
 }
 .about .about-content,
@@ -268,3 +269,73 @@ footer {
 }
 
 /* Turma */
+.turma {
+  background-color: #080808;
+  color: #f2f2f2;
+}
+
+.turma h2 {
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin-top: -30px;
+}
+.turma .column {
+  display: flex;
+  padding: 80px 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.turma .card {
+  margin: 30px 50px;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  color: #080808;
+}
+
+.turma .card img {
+  max-width: 270px;
+  border-radius: 15px;
+  padding: 3px;
+}
+.turma .content {
+  padding: 10px 20px;
+  padding-bottom: 20px;
+}
+.turma .card .sobre p {
+  padding-bottom: 10px;
+}
+.turma .content .button {
+  text-align: center;
+  padding-top: 15px;
+}
+.turma .content button {
+  text-align: center;
+  padding: 10px 60px;
+  background-color: #2b4c7e;
+  border-radius: 50px;
+  border: none;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.103);
+  cursor: pointer;
+}
+.turma .content a {
+  background-color: #2b4c7e;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 15px;
+}
+.turma .content a:hover {
+  letter-spacing: 2px;
+}
+.turma .content button:hover {
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: #080808;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 0;
+}
