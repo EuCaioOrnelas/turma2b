@@ -106,3 +106,18 @@ header.sticky .menu li a:hover {
   opacity: 1;
   pointer-events: auto;
 }
+
+.breve {
+  height: 100vh;
+  width: 100vw;
+  background-color: #080808;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.breve h2 {
+  color: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
+}
