@@ -20,17 +20,21 @@
         <form>
           <div class="input-block">
             <label for="login-email">Email</label>
-            <input type="email" id="login-email" />
+            <input type="email" id="email" placeholder="Seu e-mail aqui..." />
           </div>
           <div class="input-block">
             <label for="login-password">Password</label>
-            <input type="password" id="login-password" />
+            <input
+              type="password"
+              id="password"
+              placeholder="Digite a senha..."
+            />
           </div>
           <button
             type="submit"
             class="btn-login"
             id="meubotao"
-            onclick="redirecionar()"
+            onclick="logar(); return false"
           >
             <a>Login</a>
           </button>
