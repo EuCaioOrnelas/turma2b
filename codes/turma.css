@@ -324,12 +324,45 @@ footer,
   text-align: center;
   color: #f2f2f2;
   font-size: 15px;
+  cursor: pointer;
 }
 .turma .content a:hover {
   letter-spacing: 2px;
 }
 .turma .content button:hover {
   letter-spacing: 2px;
+}
+
+.classfull {
+  background-color: #080808;
+  text-align: center;
+  padding-bottom: 100px;
+  margin-top: -80px;
+}
+
+.classfull button {
+  text-align: center;
+  background-color: #080808;
+  border: none;
+}
+
+.classfull a {
+  display: inline-block;
+  background: #2b4c7e;
+  color: #f2f2f2;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px 30px;
+  margin-top: 20px;
+  border-radius: 50px;
+  border: 2px solid #2b4c7e;
+  transition: all 0.3s ease;
+  letter-spacing: 1px;
+}
+
+.classfull a:hover {
+  color: #2b4c7e;
+  background: none;
 }
 
 footer {
