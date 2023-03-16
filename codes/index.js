@@ -3,7 +3,7 @@ function logar() {
   let senha = document.getElementById("password").value;
   const formError = document.querySelector(".validate-error");
 
-  if (login == "2f@escola.pr.gov.br" && senha == "exatas123") {
+  if (login == "turma2f@escola.pr.gov.br" && senha == "exatas123") {
     location.href = "./src/turma.html";
   } else {
     window.alert("Usuario ou senha, Incorretos. Tente novamente.");
