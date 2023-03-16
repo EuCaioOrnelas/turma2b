@@ -5,7 +5,6 @@ window.addEventListener("scroll", function () {
 
 window.addEventListener("scroll", function () {
   if (scrollY > 100) {
-    console.log("oi");
     document.querySelector("scroll-up-btn").classList.add("show");
   } else {
     document.querySelector("scroll-up-btn").classList.remove("show");

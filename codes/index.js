@@ -6,7 +6,7 @@ function logar() {
   if (login == "2f@escola.pr.gov.br" && senha == "exatas123") {
     location.href = "./src/turma.html";
   } else {
-    window.alert("Usuario ou senha, Incorretos.");
+    window.alert("Usuario ou senha, Incorretos. Tente novamente.");
   }
 }
 
